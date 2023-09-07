@@ -6,6 +6,8 @@ let array = ['rock', 'paper', 'scissor'];
 
 
 function WhoWins(playerSelection){
+    // document.body.style.opacity = '.8';
+    // Selections.style.opacity = '1';
     const ComputerSelection = array[Math.floor(Math.random() * 3)];
     console.log(ComputerSelection);
     res.setAttribute('style', "color: white; text-shadow: 3px 3px 3px black; font-size: 30px");
