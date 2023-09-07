@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(139, 48, 48);
+    color: white;
+    position: relative;
+}
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    /* flex-basis: 50%;
+    border: 5px solid transparent;
+    margin: 0 auto;
+    width: 400px; */
+}
+.game-choices{
+    background-color: rgb(130, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    padding: 50px;
+    top: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(230, 255, 2), 10px 10px 10px rgb(248, 0, 0), 15px 15px 15px rgb(1, 255, 39);
+
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.choice img{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    transition: 100ms;
+}
+
+.choice img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);;
+}
+
+.choich span{
+    display: center;
+}
+
+.results{
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    text-shadow: 3px 3px 3px black;
+
+    /* color: rgb(99, 173, 118); */
+}
+
